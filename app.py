@@ -187,7 +187,7 @@ def update_graph(selected_dropdown_value, per_time_data, absolute_per_population
                   height=300,
                   hovermode='x',
                   autosize=True,
-                  title={'text': 'Cumulative new cases for' + per_time_data + ' ' +absolute_per_population, 'font': {'color': 'white'}, 'x': 0.5},
+                  title={'text': 'Cumulative new deaths for' + per_time_data + ' ' +absolute_per_population, 'font': {'color': 'white'}, 'x': 0.5},
                   yaxis={'range': [df_sub[df_sub['countriesAndTerritories'].isin(selected_dropdown_value)][target_col].min(),
                                   df_sub[df_sub['countriesAndTerritories'].isin(selected_dropdown_value)][target_col].max()]},
               ),
