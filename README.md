@@ -7,32 +7,37 @@
 ### Installation
 Install the virtualenv package
 
-```sh
+```bash
 $ pip install virtualenv
 ```
 ### Create the virtual environment
-```sh
+```bash
 $ virtualenv your_env_name
 ```
 
 ### Activate the virtual environment
 Mac OS / Linux
-```sh
+```bash
 $ source your_env_name/bin/activate 
 ```
 Windows
-```sh
+```bash
 $ your_env_name\Scripts\activate 
 ```
+
+### Installing the dependecies
+```bash
+$ pip install -r requirements.txt
+```
+
+
 ### Launching the app
-
-
-```sh
-python app.py
+```bash
+$ python app.py
 ```
 
 Check the localhost link at:
-```sh
+```bash
 127.0.0.1:8050
 ```
 
